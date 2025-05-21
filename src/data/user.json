@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "nombre": "Tomás Fernández",
+        "img": "tomas.jpg",
+        "skills": [
+            "Frontend",
+            "React avanzado",
+            "Arquitectura SPA"
+        ],
+        "proyectos": [
+            "Panel de control para ecommerce",
+            "Dashboard de analíticas",
+            "Portafolio personal"
+        ],
+        "tech": [
+            "react",
+            "javascript",
+            "vite",
+            "tailwind"
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Lucía García",
+        "img": "lucia.jpg",
+        "skills": [
+            "Diseño UI",
+            "HTML y CSS",
+            "Documentación técnica"
+        ],
+        "proyectos": [
+            "Landing para startup",
+            "Blog personal",
+            "Diseño en Figma de una app de recetas"
+        ],
+        "tech": [
+            "figma",
+            "html5",
+            "css3",
+            "github"
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Martín López",
+        "img": "martin.jpg",
+        "skills": [
+            "Manejo de APIs",
+            "JavaScript básico",
+            "Consumo de datos"
+        ],
+        "proyectos": [
+            "Listado de películas con API",
+            "Formulario con validación",
+            "Galería con JSON"
+        ],
+        "tech": [
+            "javascript",
+            "api",
+            "json",
+            "bootstrap"
+        ]
+    }
+]

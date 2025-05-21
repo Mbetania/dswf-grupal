@@ -1,12 +1,11 @@
-import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
+import { Routes, Route } from "react-router-dom";
+import JsonList from "./pages/JsonList";
 
-function App() {
+export const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/json" element={<JsonList />} />
     </Routes>
-  )
+  );
 }
 
-export default App
