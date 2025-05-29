@@ -1,0 +1,32 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 280px;
+  padding: 2rem;
+  transition: margin 0.3s ease;
+}
+
+/* medidas para tablet */
+@media (max-width: 1024px) {
+  .main-content {
+    margin-left: 240px;
+    padding: 1.5rem;
+  }
+}
+
+/* medidas mobile */
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .main-content {
+    margin-left: 0;
+    margin-top: 80px;
+    padding: 1rem;
+  }
+}
