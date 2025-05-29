@@ -1,57 +1,39 @@
-/* Importación de reset/normalize primero */
-/* @import './reset.css';
-
-/* Variables CSS */
-/* @import './variables.css'; */
 :root {
+  /* Light theme (default) */
   --bg-color: #ffffff;
   --text-color: #333333;
   --primary-color: #2563eb;
+  --sidebar-bg: #2c3e50;
+  --sidebar-text: #f3f4f6;
+  --nav-link-active: #3498db;
 }
 
 [data-theme="dark"] {
+  /* Dark theme */
   --bg-color: #1a1a1a;
-  --text-color: #9c9999;
+  --text-color: #f3f4f6;
   --primary-color: #3b82f6;
+  --sidebar-bg: #1a1a1a;
+  --sidebar-text: #e5e7eb;
+  --nav-link-active: #60a5fa;
 }
 
-/* Estilos base */
+/* Aplicar variables a los elementos */
 body {
-  font-family:
-    'Inter',
-    system-ui,
-    -apple-system,
-    sans-serif;
-  line-height: 1.5;
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Animaciones básicas */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 .sidebar {
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  background: var(--sidebar-bg);
+  color: var(--sidebar-text);
 }
 
-/* Clases utilitarias globales */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
+.nav-link {
+  color: var(--sidebar-text);
+}
+
+.nav-link--active {
+  color: var(--nav-link-active);
 }
