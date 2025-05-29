@@ -1,0 +1,103 @@
+{
+  "fullName": "Betania Mariana González",
+  "title": "Desarrollador Full Stack",
+  "location": "📍 Argentina",
+  "avatar": "👩🏽‍🦱",
+  "email": "betaniamargonzalez@gmail.com",
+  "github": "https://github.com/Mbetania",
+  "linkedin": "https://linkedin.com/in/[tu-perfil]",
+  "bio": "Desarrollador fullstack.",
+  "detailedBio": "Profesional con experiencia en desarrollo de software, especializado en Node.js, base de datos y React. Apasionado por el diseño de apis, modelado de base de datos e interfaces adaptadas al público de interes.",
+  "experience": 4,
+  "projectsCount": 3,
+  "technologiesCount": 12,
+  "programmingSkills": [
+    {
+      "name": "JavaScript",
+      "level": 85,
+      "description": "Desarrollo frontend y backend con ES6+, async/await, y frameworks modernos"
+    },
+    {
+      "name": "Typescript",
+      "level": 95,
+      "description": "Diseño responsivo, Flexbox, Grid, animaciones y preprocesadores"
+    },
+    {
+      "name": "React",
+      "level": 80,
+      "description": "Creación de SPAs, hooks, context API, y ecosistema React completo"
+    },
+    {
+      "name": "Node.js",
+      "level": 75,
+      "description": "APIs RESTful, Express.js, Nest.js, manejo de bases de datos y autenticación"
+    },
+    {
+      "name": "AWS",
+      "level": 70,
+      "description": ""
+    }
+  ],
+  "technologies": [
+    {
+      "name": "React",
+      "icon": "⚛️",
+      "category": "Frontend",
+      "experience": "3 años"
+    },
+    {
+      "name": "Node.js",
+      "icon": "🟢",
+      "category": "Backend",
+      "experience": "4 años"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "🟨",
+      "category": "Lenguaje",
+      "experience": "4 años"
+    },
+    {
+      "name": "Git",
+      "icon": "📚",
+      "category": "Control de Versiones",
+      "experience": "4 años"
+    },
+    {
+      "name": "Sequelize",
+      "icon": "🛢️",
+      "category": "Base de Datos",
+      "experience": "3 año"
+    }
+  ],
+  "featuredProjects": [
+    {
+      "name": "Lina",
+      "icon": "🎈",
+      "description": "Aplicación móvil para acompañar a personas gestantes, almacenando datos del embarazo y síntomas.",
+      "technologies": [
+        "Swift",
+        "Nest.js",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Chat Room",
+      "icon": "🕹️",
+      "description": "Aplicación de escritorio para socios de una comunidad con colaboración y chat en tiempo real",
+      "technologies": [
+        "React",
+        "Socket.io",
+        "Express"
+      ]
+    },
+    {
+      "name": "Weather Dashboard",
+      "icon": "🌤️",
+      "description": "Dashboard del clima conectado a la api Open Weather y visualización de datos",
+      "technologies": [
+        "React"
+      ]
+    }
+  ]
+}
