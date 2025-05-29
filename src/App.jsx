@@ -1,11 +1,13 @@
-import { Routes, Route } from "react-router-dom";
-import JsonList from "./pages/JsonList";
+import { RouterProvider } from 'react-router-dom';
+import { ThemeProvider } from './providers/ThemeProvider';
+import { router } from './routes';
 
-export const App = () => {
+function App() {
   return (
-    <Routes>
-      <Route path="/json" element={<JsonList />} />
-    </Routes>
+    <ThemeProvider>
+      <RouterProvider router={router} />
+    </ThemeProvider>
   );
 }
 
+export default App;
