@@ -1,5 +1,4 @@
 :root {
-  /* Light theme (default) */
   --bg-color: #ffffff;
   --text-color: #333333;
   --primary-color: #2563eb;
@@ -9,7 +8,6 @@
 }
 
 [data-theme="dark"] {
-  /* Dark theme */
   --bg-color: #1a1a1a;
   --text-color: #f3f4f6;
   --primary-color: #3b82f6;
@@ -18,7 +16,6 @@
   --nav-link-active: #60a5fa;
 }
 
-/* Aplicar variables a los elementos */
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
