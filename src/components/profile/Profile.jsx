@@ -10,7 +10,7 @@ const Profile = () => {
   useEffect(() => {
     const loadProfileData = async () => {
       try {
-        const response = await fetch('/test/mock/profile.json');
+        const response = await fetch('/mock/profile.json');
         const data = await response.json();
         setProfileData(data);
       } catch (error) {
